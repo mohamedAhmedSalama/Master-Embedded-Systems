@@ -1,2 +1,2 @@
-## unit2 C programming
-# Assignment  
+## Unit2 C programming
+# Assignments  
