@@ -1,0 +1,11 @@
+19:19:24 **** Rebuild of configuration Debug for project project1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project1.o" "..\\src\\project1.c" 
+gcc -o project1.exe "src\\project1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file project1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:19:27 **** Incremental Build of configuration Debug for project project1 ****
+Info: Internal Builder is used for build
+gcc -o project1.exe "src\\project1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file project1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status

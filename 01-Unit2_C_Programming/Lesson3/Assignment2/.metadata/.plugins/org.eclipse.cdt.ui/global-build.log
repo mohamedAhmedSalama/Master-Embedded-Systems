@@ -1,0 +1,22 @@
+21:01:08 **** Rebuild of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:16:29: warning: unused variable 'max_num' [-Wunused-variable]
+  float num2 , num3 , num4 , max_num;
+                             ^~~~~~~
+gcc -o project.exe "src\\project.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:53:58 **** Clean-only build of configuration Debug for project project ****
+rm -rf src/project.d project.exe src/project.o 
+12:53:58 **** Rebuild of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:16:29: warning: unused variable 'max_num' [-Wunused-variable]
+  float num2 , num3 , num4 , max_num;
+                             ^~~~~~~
+gcc -o project.exe "src\\project.o" 
+Info: Nothing to build for project
+Info: Nothing to build for project

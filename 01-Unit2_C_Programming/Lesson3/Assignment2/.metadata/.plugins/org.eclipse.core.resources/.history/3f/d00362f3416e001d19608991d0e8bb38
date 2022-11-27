@@ -1,0 +1,136 @@
+/*
+ ============================================================================
+ Name        : project.c
+ Author      : Mohamed Ahmed salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Assignment2 solution
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num1 , sum = 0 , fact = 1 ,  i;
+	float num2 , num3 , num4 , max_num;
+	char ch;
+//EX1
+	printf("Enter an integer you want to check: ");
+	fflush(stdout);
+	scanf("%d",&num1);
+	fflush(stdin);
+	if(num1 % 2 == 0)
+		printf("%d is even\n",num1);
+	else
+		printf("%d is odd\n",num1);
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX2
+	printf("Enter an alphabet: ");
+	fflush(stdout);
+	scanf("%c",&ch);
+	fflush(stdin);
+	if((ch == 'a') || (ch == 'A'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'e') || (ch == 'E'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'i') || (ch == 'I'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'o') || (ch == 'O'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'u') || (ch == 'U'))
+		printf("%c is a vowel\n",ch);
+	else
+		printf("%c is a constant\n",ch);
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX3
+	printf("Enter three numbers: ");
+	fflush(stdout);
+	scanf("%f",&num2);
+	scanf("%f",&num3);
+	scanf("%f",&num4);
+	if((num2 >= num3) && (num2 >=num4))
+		printf("Largest number = %.2f\n",num2);
+	else if((num3 >= num2) && (num3 >=num4))
+		printf("Largest number = %.2f\n",num3);
+	else if((num4 >= num2) && (num4 >=num3))
+		printf("Largest number = %.2f\n",num4);
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX4
+	printf("Enter a number: ");
+	fflush(stdout);
+	scanf("%f",&num2);
+	fflush(stdin);
+	if( num2 > 0)
+		printf("%.3f is positive\n",num2);
+	else if (num2 < 0)
+		printf("%.3f is negative\n",num2);
+	else
+		printf("You entered zero\n");
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX5
+	printf("Enter a character: ");
+	fflush(stdout);
+	scanf("%c",&ch);
+	fflush(stdin);
+	if((ch >= 'a' && ch<= 'z') || (ch >= 'A' && ch <= 'Z'))
+		printf("%c is an alphabet\n",ch);
+	else
+		printf("%c is not an alphabet\n",ch);
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX6
+	printf("Enter a integer: ");
+	fflush(stdout);
+	scanf("%d",&num1);
+	fflush(stdin);
+	for( i = 1 ; i <= num1 ; i++)
+		sum+= i;
+	printf("Sum = %d\n",sum);
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX7
+	printf("Enter a integer: ");
+	fflush(stdout);
+	scanf("%d",&num1);
+	fflush(stdin);
+	if(num1 > 0)
+	{
+		for( i = 1 ; i <= num1 ; i++)
+			fact *= i;
+		printf("Factorial = %d\n",fact);
+	}
+	else
+		printf("Error!!! Factorial of negative number does not exist\n");
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX8
+	printf("Enter operator either + or - or * or / :- ");
+	fflush(stdout);
+	scanf("%c",&ch);
+	fflush(stdin);
+	fflush(stdout);
+	printf("Enter two operands : ");
+	scanf("%f %f",&num2,&num3);
+	switch(ch)
+	{
+		case '+' :
+			printf("%f %c %f = %f\n",num2,ch,num3,num2+num3);
+			break;
+		case '-':
+			printf("%f %c %f = %f\n",num2,ch,num3,num2-num3);
+			break;
+		case '*':
+			printf("%f %c %f = %f\n",num2,ch,num3,num2*num3);
+			break;
+		case '/':
+			printf("%f %c %f = %f\n",num2,ch,num3,num2/num3);
+			break;
+	}
+	printf("#################################################\n");
+	return EXIT_SUCCESS;
+}

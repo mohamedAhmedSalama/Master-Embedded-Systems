@@ -1,0 +1,79 @@
+/*
+ ============================================================================
+ Name        : project1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num1,num2;
+	float num3,num4,temp;
+	char ch;
+//EX1
+	printf("C Programming\n");
+	printf("########################################################################\n");
+	//-----------------------------------------------------------------------------------
+//EX2
+	printf("Enter a integer: ");
+	fflush(stdout);
+	scanf("%d",&num1);
+	printf("You entered: %d\n",num1);
+	printf("########################################################################\n");
+	//-----------------------------------------------------------------------------------
+//EX3
+	printf("Enter 2 integer Numbers: ");
+	fflush(stdout);
+	scanf("%d%d",&num1,&num2);
+	printf("Sum = %d\n",num1+num2);
+	printf("########################################################################\n");
+	//-----------------------------------------------------------------------------------
+//EX4
+	printf("Enter 2  Numbers: ");
+	fflush(stdout);
+	scanf("%f%f",&num3,&num4);
+	printf("Product = %f\n",num3*num4);
+	printf("########################################################################\n");
+	//-----------------------------------------------------------------------------------
+//EX5
+	printf("Enter a character: ");
+	fflush(stdout);
+	scanf("%c",&ch);
+	fflush(stdin);
+	printf("ASCII value of %c is %d\n",ch,ch);
+	printf("########################################################################\n");
+	//-----------------------------------------------------------------------------------
+//EX6
+	printf("Enter value of a: ");
+	fflush(stdout);
+	scanf("%f",&num3);
+	printf("Enter value of b: ");
+	fflush(stdout);
+	scanf("%f",&num4);
+	temp = num3;
+	num3 = num4;
+	num4= temp;
+	printf("After swapping, value of a = %f\n",num3);
+	printf("After swapping, value of b = %f\n",num4);
+	printf("########################################################################\n");
+	//-----------------------------------------------------------------------------------
+//EX7
+	printf("Enter value of a: ");
+	fflush(stdout);
+	scanf("%f",&num3);
+	printf("Enter value of b: ");
+	fflush(stdout);
+	scanf("%f",&num4);
+	num3 = num3 + num4;
+	num4 = num3 - num4;
+	num3 = num3 - num4;
+	printf("After swapping, value of a = %f\n",num3);
+	printf("After swapping, value of b = %f\n",num4);
+	printf("########################################################################\n");
+	return EXIT_SUCCESS;
+}

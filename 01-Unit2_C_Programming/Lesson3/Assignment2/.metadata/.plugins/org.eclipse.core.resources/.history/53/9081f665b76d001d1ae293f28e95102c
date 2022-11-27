@@ -1,0 +1,46 @@
+/*
+ ============================================================================
+ Name        : project.c
+ Author      : Mohamed Ahmed salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Assignment2 solution
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num1;
+	char ch;
+//EX1
+	printf("Enter an integer you want to check: ");
+	fflush(stdout);
+
+	scanf("%d",&num1);
+	fflush(stdin);
+	if(num1 % 2 == 0)
+		printf("%d is even\n",num1);
+	else
+		printf("%d is odd\n",num1);
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX2
+	printf("Enter an alphabet: ");
+	fflush(stdout);
+	scanf("%c",&ch);
+	if((ch == 'a') || (ch == 'A'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'e') || (ch == 'E'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'i') || (ch == 'I'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'o') || (ch == 'O'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'u') || (ch == 'U'))
+		printf("%c is a vowel\n",ch);
+	else
+		printf("%c is a constant\n",ch);
+	return EXIT_SUCCESS;
+}

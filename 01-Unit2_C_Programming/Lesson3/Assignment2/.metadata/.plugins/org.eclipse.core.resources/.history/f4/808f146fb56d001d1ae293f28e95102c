@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : project.c
+ Author      : Mohamed Ahmed salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Assignment2 solution
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	printf("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}

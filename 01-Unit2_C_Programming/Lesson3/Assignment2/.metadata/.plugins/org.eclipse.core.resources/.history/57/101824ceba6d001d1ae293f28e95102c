@@ -1,0 +1,64 @@
+/*
+ ============================================================================
+ Name        : project.c
+ Author      : Mohamed Ahmed salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Assignment2 solution
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num1;
+	float num2 , num3 , num4 , max_num;
+	char ch;
+//EX1
+	printf("Enter an integer you want to check: ");
+	fflush(stdout);
+	scanf("%d",&num1);
+	fflush(stdin);
+	if(num1 % 2 == 0)
+		printf("%d is even\n",num1);
+	else
+		printf("%d is odd\n",num1);
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX2
+	printf("Enter an alphabet: ");
+	fflush(stdout);
+	scanf("%c",&ch);
+	fflush(stdin);
+	if((ch == 'a') || (ch == 'A'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'e') || (ch == 'E'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'i') || (ch == 'I'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'o') || (ch == 'O'))
+		printf("%c is a vowel\n",ch);
+	else if ((ch == 'u') || (ch == 'U'))
+		printf("%c is a vowel\n",ch);
+	else
+		printf("%c is a constant\n",ch);
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX3
+	printf("Enter three numbers: ");
+	fflush(stdout);
+	scanf("%f",&num2);
+	scanf("%f",&num3);
+	scanf("%f",&num4);
+	if((num2 >= num3) && (num2 >=num4))
+		printf("Largest number = %.2f\n",num2);
+	else if((num3 >= num2) && (num3 >=num4))
+		printf("Largest number = %.2f\n",num3);
+	else if((num4 >= num2) && (num4 >=num3))
+		printf("Largest number = %.2f\n",num4);
+	printf("#################################################\n");
+	//------------------------------------------------------------
+//EX3
+	return EXIT_SUCCESS;
+}

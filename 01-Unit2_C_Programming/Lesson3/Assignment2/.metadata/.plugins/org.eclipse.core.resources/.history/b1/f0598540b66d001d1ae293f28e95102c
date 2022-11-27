@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : project.c
+ Author      : Mohamed Ahmed salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Assignment2 solution
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num1;
+//EX1
+	printf("Enter an integer you want to check: ");
+	fflush(stdout);
+	scanf("%d",&num1);
+	if(num1 % 2 == 0)
+		printf("%d is even\n",num1);
+	else
+		printf("%d is odd\n",num1);
+	printf("#################################################\n");
+	//------------------------------------------------------------
+	return EXIT_SUCCESS;
+}
