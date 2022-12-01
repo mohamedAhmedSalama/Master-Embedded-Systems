@@ -1,0 +1,54 @@
+/*
+ ============================================================================
+ Name        : project.c
+ Author      : Mohamed Ahmed Salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Solution of assignment 3(arrays)
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+	int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+	int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+	float arr[20]={0} , sum = 0 , Average = 0;
+//EX5
+	printf("Enter no of elements : ");
+	fflush(stdout);   fflush(stdin);
+	scanf("%d",&no_data);
+	printf("Enter elements : \n");
+	fflush(stdout);   fflush(stdin);
+	for(i = 0 ; i < no_data ; i++)
+	{
+		scanf("%d",&Matrix[i]);
+	}
+	printf("Enter the elements to be searched: ");
+	fflush(stdout);   fflush(stdin);
+	scanf("%d",&num);
+	pos = -1;
+	for(i = 0 ; i < no_data ; i++)
+	{
+		if(Matrix[i] == num)
+		{
+			pos = i+1;
+		}
+	}
+	if( pos > 0)
+	{
+		printf("Number found at the location = %d",pos);
+	}
+	else
+	{
+		printf("Number is not found");
+	}
+
+
+
+
+
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,471 @@
+13:57:46 **** Rebuild of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+gcc -o Project.exe "src\\Project.o" 
+13:57:54 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+gcc -o Project.exe "src\\Project.o" 
+14:24:43 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:26:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:27:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:25:05 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:26:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:27:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:27:32 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:26:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:27:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:27:52 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:26:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:27:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:29:31 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:23:2: error: expected ';' before '}' token
+  }
+  ^
+..\src\Project.c:29:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:30:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+14:29:39 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:29:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:30:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:29:56 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:29:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:30:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:32:42 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:29:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:30:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:32:50 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe "src\\Project.o" 
+14:35:02 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:32:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:33:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:35:09 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe "src\\Project.o" 
+14:36:24 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:27:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:28:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:37:08 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:26:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:27:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:37:13 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe "src\\Project.o" 
+Info: Nothing to build for Project
+Info: Nothing to build for Project
+Info: Nothing to build for Project
+14:40:47 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:26:9: warning: passing argument 1 of 'strlwr' makes pointer from integer without a cast [-Wint-conversion]
+  strlwr(ch1);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:140:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strlwr (char *);
+                                        ^~~~~~
+..\src\Project.c:27:9: warning: passing argument 1 of 'strupr' makes pointer from integer without a cast [-Wint-conversion]
+  strupr(ch2);
+         ^~~
+In file included from ..\src\Project.c:13:0:
+c:\mingw\include\string.h:145:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strupr (char *);
+                                        ^~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:41:52 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+gcc -o Project.exe "src\\Project.o" 
+14:47:15 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:25:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("Lenth of string : %d\n",count);
+  ^~~~~~
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+..\src\Project.c:16:30: warning: unused variable 'ch' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                              ^~
+gcc -o Project.exe "src\\Project.o" 
+src\Project.o: In function `main':
+G:\Embedded_Systems\Projects\Codes\Working_dir\Unit2\Lesson4\Assignment3_strings\Project\Debug/../src/Project.c:25: undefined reference to `pritnf'
+collect2.exe: error: ld returned 1 exit status
+14:47:21 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe "src\\Project.o" 
+src\Project.o: In function `main':
+G:\Embedded_Systems\Projects\Codes\Working_dir\Unit2\Lesson4\Assignment3_strings\Project\Debug/../src/Project.c:25: undefined reference to `pritnf'
+collect2.exe: error: ld returned 1 exit status
+14:47:26 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe "src\\Project.o" 
+src\Project.o: In function `main':
+G:\Embedded_Systems\Projects\Codes\Working_dir\Unit2\Lesson4\Assignment3_strings\Project\Debug/../src/Project.c:25: undefined reference to `pritnf'
+collect2.exe: error: ld returned 1 exit status
+14:47:38 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+..\src\Project.c:16:30: warning: unused variable 'ch' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                              ^~
+gcc -o Project.exe "src\\Project.o" 
+14:49:08 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+..\src\Project.c:16:30: warning: unused variable 'ch' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                              ^~
+gcc -o Project.exe "src\\Project.o" 
+14:55:55 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:18:18: warning: unused variable 'count' [-Wunused-variable]
+  int i = 0 , j , count = 0;
+                  ^~~~~
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+..\src\Project.c:16:30: warning: unused variable 'ch' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                              ^~
+..\src\Project.c:16:7: warning: unused variable 'data_string' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+       ^~~~~~~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:57:00 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:18:18: warning: unused variable 'count' [-Wunused-variable]
+  int i = 0 , j , count = 0;
+                  ^~~~~
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+..\src\Project.c:16:30: warning: unused variable 'ch' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                              ^~
+..\src\Project.c:16:7: warning: unused variable 'data_string' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+       ^~~~~~~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:58:58 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:18:18: warning: unused variable 'count' [-Wunused-variable]
+  int i = 0 , j , count = 0;
+                  ^~~~~
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+..\src\Project.c:16:30: warning: unused variable 'ch' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                              ^~
+..\src\Project.c:16:7: warning: unused variable 'data_string' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+       ^~~~~~~~~~~
+gcc -o Project.exe "src\\Project.o" 
+14:59:10 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:18:18: warning: unused variable 'count' [-Wunused-variable]
+  int i = 0 , j , count = 0;
+                  ^~~~~
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+..\src\Project.c:16:30: warning: unused variable 'ch' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                              ^~
+..\src\Project.c:16:7: warning: unused variable 'data_string' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+       ^~~~~~~~~~~
+gcc -o Project.exe "src\\Project.o" 
+15:00:39 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:18:18: warning: unused variable 'count' [-Wunused-variable]
+  int i = 0 , j , count = 0;
+                  ^~~~~
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+..\src\Project.c:16:30: warning: unused variable 'ch' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                              ^~
+..\src\Project.c:16:7: warning: unused variable 'data_string' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+       ^~~~~~~~~~~
+gcc -o Project.exe "src\\Project.o" 
+15:01:44 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:18:18: warning: unused variable 'count' [-Wunused-variable]
+  int i = 0 , j , count = 0;
+                  ^~~~~
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+..\src\Project.c:16:30: warning: unused variable 'ch' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                              ^~
+..\src\Project.c:16:7: warning: unused variable 'data_string' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+       ^~~~~~~~~~~
+gcc -o Project.exe "src\\Project.o" 
+15:06:19 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project.o" "..\\src\\Project.c" 
+..\src\Project.c: In function 'main':
+..\src\Project.c:18:21: warning: unused variable 'count' [-Wunused-variable]
+  int i = 0 , j , l ,count = 0 , temp;
+                     ^~~~~
+..\src\Project.c:17:17: warning: unused variable 'str2' [-Wunused-variable]
+  char str1[100],str2[100];
+                 ^~~~
+..\src\Project.c:16:40: warning: unused variable 'ch2' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                        ^~~
+..\src\Project.c:16:34: warning: unused variable 'ch1' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                                  ^~~
+..\src\Project.c:16:30: warning: unused variable 'ch' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+                              ^~
+..\src\Project.c:16:7: warning: unused variable 'data_string' [-Wunused-variable]
+  char data_string[100]={0} , ch ,ch1 , ch2;
+       ^~~~~~~~~~~
+gcc -o Project.exe "src\\Project.o" 
+Info: Nothing to build for Project

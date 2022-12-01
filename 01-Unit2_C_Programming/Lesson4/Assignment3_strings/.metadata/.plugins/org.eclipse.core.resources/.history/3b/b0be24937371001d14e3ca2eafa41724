@@ -1,0 +1,40 @@
+/*
+ ============================================================================
+ Name        : Project.c
+ Author      : Mohamed Ahmed Salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Solution of Assignment3(Strings)
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void) {
+	char data_string[100]={0} , ch ,ch1 , ch2;
+	int i , count = 0;
+	printf("Enter a string: ");
+	fflush(stdout);  fflush(stdin);
+	gets(data_string);
+	printf("Enter a character to find frequency: ");
+	fflush(stdout);  fflush(stdin);
+	scanf("%c",&ch);
+	ch1 = ch;
+	ch2 = ch1 ;
+	strlwr(ch1);
+	strupr(ch2);
+	for(i = 0 ; data_string[i] ; i++)
+	{
+		if(data_string[i] == ch1 || data_string[i] == ch2)
+		{
+			count++;
+		}
+	}
+	if(count > 0)
+	{
+		printf("Frequency of %c = %d",ch,count);
+	}
+	return EXIT_SUCCESS;
+}

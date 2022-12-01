@@ -1,0 +1,65 @@
+/*
+ ============================================================================
+ Name        : project.c
+ Author      : Mohamed Ahmed Salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Solution of assignment 3
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+	int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+	int i , j , no_data = 0 , Rows , Cols;
+	float arr[20]={0} , sum = 0 , Average = 0;
+//EX3
+	printf("Enter rows and column of matrix : ");
+	fflush(stdout);	 fflush(stdin);
+	scanf("%d%d",&Rows,&Cols);
+	fflush(stdout);	 fflush(stdin);
+	printf("Enter elements of matrix: \n");
+	fflush(stdout);
+	for( i = 0 ; i < Rows ;  i++)
+	{
+		for ( j = 0 ; j < Cols ; j++)
+		{
+			printf("Enter element of a%d%d : ",i+1,j+1);
+			fflush(stdout);	 fflush(stdin);
+			scanf("%d",&original_matrix[i][j]);
+		}
+	}
+	printf("Entered matrix: \n");
+	fflush(stdout);
+	for( i = 0 ; i < Rows ;  i++)
+	{
+		for ( j = 0 ; j < Cols ; j++)
+		{
+			printf("%d\t",original_matrix[i][j]);
+			fflush(stdout);
+		}
+		printf("\n");
+	}
+
+	for( i = 0 ; i < Rows ;  i++)
+	{
+		for( j = 0 ; j < Cols ; j++)
+		{
+			Transpose_matrix[j][i] = original_matrix[i][j];
+		}
+	}
+	printf("Transpose matrix: \n");
+	fflush(stdout);
+	for (i = 0 ; i < Cols ; i++)
+	{
+		for (j = 0 ; j < Rows ; j++)
+		{
+			printf("%d\t",Transpose_matrix[i][j]);
+		}
+		printf("\n");
+	}
+	return EXIT_SUCCESS;
+}

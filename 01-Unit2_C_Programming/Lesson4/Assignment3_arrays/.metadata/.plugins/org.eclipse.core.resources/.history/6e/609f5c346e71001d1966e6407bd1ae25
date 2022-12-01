@@ -1,0 +1,54 @@
+/*
+ ============================================================================
+ Name        : project.c
+ Author      : Mohamed Ahmed Salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Solution of assignment 3(arrays)
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+	int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+	int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+	float arr[20]={0} , sum = 0 , Average = 0;
+
+	printf("Enter no of elements : ");
+	fflush(stdout);  fflush(stdin);
+	scanf("%d",&no_data);
+	for(i = 0 ; i < no_data ; i++)
+	{
+		scanf("%d",&Matrix[i]);
+	}
+	printf("Enter the element to be inserted : ");
+	fflush(stdout);  fflush(stdin);
+	scanf("%d",&num);
+	printf("Enter the location : ");
+	fflush(stdout);  fflush(stdin);
+	scanf("%d",&pos);
+	pos--;
+	j=0;
+	for(i = 0 ; i < no_data ; i++)
+	{
+		if(pos == i)
+		{
+			Matrix_copy[i]= num;
+			i--;
+			pos=-9;
+		}
+		else
+			Matrix_copy[j] = Matrix[i];
+		j++;
+
+	}
+	for(i = 0 ; i <= no_data ; i++)
+	{
+		printf("%d\t",Matrix_copy[i]);
+	}
+
+	return EXIT_SUCCESS;
+}

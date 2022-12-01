@@ -1,0 +1,526 @@
+09:53:04 **** Rebuild of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+gcc -o project.exe "src\\project.o" 
+09:53:12 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+gcc -o project.exe "src\\project.o" 
+09:53:19 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:16:10: warning: unused variable 'j' [-Wunused-variable]
+  int i , j , no_data = 0;
+          ^
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+11:37:48 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:14: warning: unused variable 'no_data' [-Wunused-variable]
+  int i , j , no_data = 0 , Rows , Cols;
+              ^~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:21:59 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:23:15 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:23:43 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:68: warning: variable 'Matrix_copy' set but not used [-Wunused-but-set-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                                                    ^~~~~~~~~~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:24:25 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:68: warning: variable 'Matrix_copy' set but not used [-Wunused-but-set-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                                                    ^~~~~~~~~~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:24:42 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -o project.exe "src\\project.o" 
+13:25:04 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:26:36 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:28:05 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+Info: Nothing to build for project
+13:37:34 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:68: warning: variable 'Matrix_copy' set but not used [-Wunused-but-set-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                                                    ^~~~~~~~~~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:38:26 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:38:59 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:39:45 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:40:04 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:49:25 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:68: warning: unused variable 'Matrix_copy' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                                                    ^~~~~~~~~~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:17:13: warning: unused variable 'j' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+             ^
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:49:52 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+..\src\project.c: In function 'main':
+..\src\project.c:18:32: warning: unused variable 'Average' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                                ^~~~~~~
+..\src\project.c:18:22: warning: unused variable 'sum' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+                      ^~~
+..\src\project.c:18:8: warning: unused variable 'arr' [-Wunused-variable]
+  float arr[20]={0} , sum = 0 , Average = 0;
+        ^~~
+..\src\project.c:17:68: warning: unused variable 'Matrix_copy' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                                                    ^~~~~~~~~~~
+..\src\project.c:17:42: warning: unused variable 'Cols' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                          ^~~~
+..\src\project.c:17:35: warning: unused variable 'Rows' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+                                   ^~~~
+..\src\project.c:17:13: warning: unused variable 'j' [-Wunused-variable]
+  int i = 0, j = 0 , no_data = 0 , Rows , Cols , Matrix[20] = {0} , Matrix_copy[20] ={0} , num , pos;
+             ^
+..\src\project.c:16:38: warning: unused variable 'Transpose_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+                                      ^~~~~~~~~~~~~~~~
+..\src\project.c:16:6: warning: unused variable 'original_matrix' [-Wunused-variable]
+  int original_matrix[20][20] = {0} , Transpose_matrix[20][20] = {0};
+      ^~~~~~~~~~~~~~~
+..\src\project.c:15:26: warning: unused variable 'arr2' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+                          ^~~~
+..\src\project.c:15:8: warning: unused variable 'arr1' [-Wunused-variable]
+  float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+        ^~~~
+gcc -o project.exe "src\\project.o" 
+13:51:56 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project.o" "..\\src\\project.c" 
+gcc -o project.exe "src\\project.o" 

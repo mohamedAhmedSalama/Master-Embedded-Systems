@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : Project.c
+ Author      : Mohamed Ahmed Salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Solution of Assignment3(Strings)
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void) {
+	char data_string[100]={0} , ch ,ch1 , ch2;
+	int i = 0 , count = 0;
+	printf("Enter a string: ");
+	fflush(stdout);  fflush(stdin);
+	gets(data_string);
+	for( i = 0 ; data_string[i] != '\0' ; i++)
+	{
+		count++;
+	}
+	pritnf("Lenth of string : %d\n",count);
+	return EXIT_SUCCESS;
+}

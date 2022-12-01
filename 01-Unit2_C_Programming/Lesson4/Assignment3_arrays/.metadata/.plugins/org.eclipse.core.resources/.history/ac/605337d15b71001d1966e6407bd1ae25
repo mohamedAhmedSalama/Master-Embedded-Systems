@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : project.c
+ Author      : Mohamed Ahmed Salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Solution of assignment 3
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	float arr1[2][2] = {0}, arr2[2][2] = {0} ;
+	int i , j , no_data = 0;
+	float arr[20]={0} , sum = 0 , Average = 0;
+//EX2
+	printf("Enter the numbers of data : ");
+	fflush(stdout); fflush(stdin);
+	scanf("%d",&no_data);
+	for(i = 0 ; i <  no_data ; i++)
+	{
+		printf("%d. Enter Number: ",i+1);
+		fflush(stdout); fflush(stdin);
+		scanf("%f",&arr[i]);
+		sum += arr[i];
+	}
+	Average =  sum / no_data ;
+	printf("Average = %.2f",Average);
+	return EXIT_SUCCESS;
+}
