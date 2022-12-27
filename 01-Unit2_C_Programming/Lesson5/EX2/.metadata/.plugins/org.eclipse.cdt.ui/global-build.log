@@ -1,0 +1,47 @@
+21:31:07 **** Rebuild of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4.o" "..\\src\\EX4.c" 
+gcc -o EX4.exe "src\\EX4.o" 
+
+21:31:07 Build Finished. 0 errors, 0 warnings. (took 291ms)
+
+21:31:12 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4.o" "..\\src\\EX4.c" 
+..\src\EX4.c: In function 'power':
+..\src\EX4.c:18:16: error: called object 'power' is not a function or function pointer
+  return base * power(base , power-1);
+                ^~~~~
+..\src\EX4.c:14:27: note: declared here
+ int power( int base , int power)
+                           ^~~~~
+..\src\EX4.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+21:31:12 Build Failed. 1 errors, 1 warnings. (took 104ms)
+
+21:31:22 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4.o" "..\\src\\EX4.c" 
+..\src\EX4.c: In function 'power':
+..\src\EX4.c:18:16: error: called object 'power' is not a function or function pointer
+  return base * power(base , power-1);
+                ^~~~~
+..\src\EX4.c:14:27: note: declared here
+ int power( int base , int power)
+                           ^~~~~
+..\src\EX4.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+21:31:22 Build Failed. 1 errors, 1 warnings. (took 87ms)
+
+21:32:08 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4.o" "..\\src\\EX4.c" 
+gcc -o EX4.exe "src\\EX4.o" 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX4
+Info: Nothing to build for EX4
+Info: Nothing to build for EX4

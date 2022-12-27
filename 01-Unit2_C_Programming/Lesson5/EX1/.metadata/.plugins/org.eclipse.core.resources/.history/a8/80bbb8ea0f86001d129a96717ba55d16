@@ -1,0 +1,45 @@
+/*
+ ============================================================================
+ Name        : Functions.c
+ Author      : Mohamed Ahmed Salama
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+char IsPrime(int number)
+{
+	char prime = 1;
+	for(int i = 2 ; i < number ; i++ )
+	{
+		if( number % i == 0)
+		{
+			prime = 0;
+			break;
+		}
+	}
+	return prime;
+}
+int main(void) {
+	int num1 ,num2 , i;
+	printf("Enter two numbers (intervals): ");
+	fflush(stdout);	fflush((stdin));
+	scanf("%d%d",&num1,&num2);
+	fflush(stdout);	fflush((stdin));
+	printf("Prime numbers between  %d and %d are:",num1,num2);
+	fflush(stdout);
+	for ( i = num1 ;  i <= num2 ; i++)
+	{
+		if (IsPrime(i) == 1)
+		{
+			printf("%d ",i);
+			fflush(stdout);
+		}
+	}
+
+	return EXIT_SUCCESS;
+}
