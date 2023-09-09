@@ -1,0 +1,7 @@
+1 Mohamed Ahmed 3.9 6 7 8 9 10 
+2 Taha Ahmed 2.3 5 6 12 9 33 
+3 Khaled Salama 3.5 22 15 55 81 99 
+4 Esraa Ali 2.9 8 23 45 72 44 
+5 Ashraf Yousef 3.0 51 18 56 85 60
+6 Ahmed Samy 3.1 11 23 55 66 34
+8 Eman Abdo 3.2 15 19 20 22 31 
